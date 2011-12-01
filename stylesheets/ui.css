@@ -186,32 +186,43 @@
 	}
 
 /*	--------------------------------------------------
-   	Navigation Bar Dropdown
-	-------------------------------------------------- */
-	
-	ul.nav-bar { height: 58px; background: gray; margin-top: 20px; border: 1px solid rgba(0, 0, 0, 0.1); }	
-	.nav-bar ul li { float:left; display:block; position:relative; padding: 10px 4px 0px 10px; border:none; }
-	.nav-bar ul li a { position: relative; font-size: 14px; padding: 10px 20px 10px 10px; display: block; text-decoration: none; color: white; margin-left: 20px; font-weight: bold; } 
-	.nav-bar ul li a:after { content: ""; width: 0; height: 0; border-left: 4px solid transparent;border-right: 4px solid transparent; border-top: 4px solid white;  display: block; position: absolute; right: 6px; bottom: 16px; }
-	.nav-bar ul li:hover a { color: grey; background: #EEE; -moz-border-radius: 3px 3px 0px 0px; -webkit-border-radius: 3px 3px 0px 0px; border-radius: 3px 3px 0px 0px; z-index: 2; }
-	.nav-bar ul li ul { display: none; }
-	.nav-bar ul li:hover ul { display: block; position: absolute; color: gray; }
-	.nav-bar ul li:hover ul li a { display: block; background: #eee;  }
+	Navigation Dropdown
+	-------------------------------------------------- */	
+	.nav-bar { height: 58px; background: white; border: 1px solid gray; }	
+	.nav-bar li { float:left; display:block; position:relative ; }
+	.nav-bar li a { position: relative; font-size: 14px; padding: 20px 30px 18px 20px; display: block; text-decoration: none; color: grey; font-weight: bold;  } 
+	.nav-bar li a:after { content: ""; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 4px solid grey;  display: block; position: absolute; right: 15px; bottom: 25px; }
+	.nav-bar li:hover a { position: relative; z-index: 100; color: grey; background: white; border-top: 3px solid #00A6FC; border-right: 1px solid grey; border-bottom: none; border-left: 1px solid grey; margin-left: -1px; } 
+	.nav-bar li .reveal-this { display: none; }
+	.nav-bar li:hover .reveal-this { display: block; position: absolute; color: gray; }
+	.nav-bar li:hover a { display: block; background: white;  }
 
-	.flyout { background: #EEE; margin: -9px 0px 0px -10px; padding: 27px 20px 20px 20px; -moz-border-radius: 0px 3px 3px 3px; -webkit-border-radius: 0px 3px 3px 3px; border-radius: 0px 3px 3px 3px; -moz-box-shadow: 0 5px 5px rgba(0,0,0,.1); -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.1); box-shadow: 0 5px 5px rgba(0,0,0,.1);}
-	.flyout.one { width: 200px; }
-	.flyout.two	{ width: 400px; }
-	.flyout.three { width: 600px; }
+
+.flyout { background: white; margin: -1px 0px 0px -1px; padding: 27px 20px 20px 20px; border-top: 1px solid grey; border-right: 1px solid grey; border-bottom: 1px solid grey; border-left: 1px solid grey; }
+
+.flyout.small { width: 200px; }
+.flyout.medium	{ width: 400px; }
+.flyout.large { width: 600px; }
 
 @media only screen and (max-width: 767px) {
-	.nav-bar { height: auto; }
-	.nav-bar ul li { float: none; display: block; padding: 0px 0px 0px 0px; margin: -1px -1px -1px -21px; }
-	.nav-bar ul li a:after { content: ""; width: 0; height: 0; border-left: 4px solid transparent;border-right: 4px solid transparent; border-top: 4px solid white;  display: block; float: right; position: absolute; right: 6px; bottom: 16px; }
-	.nav-bar ul li:hover a { color: grey; background: #EEE; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; border-radius: 0px 0px 0px }
-	.nav-bar ul li a { width: 100px; position: relative; font-size: 14px; padding: 10px 20px 10px 10px; display: block; text-decoration: none; color: white; margin-left: 20px; font-weight: bold; } 
-	.nav-bar ul li:hover ul { position: relative; }
-}
+	.nav-bar { height: auto; background: white; }
+	.nav-bar li { float: none; display: block; margin: -1px -1px -1px -21px; }
+	.nav-bar li:hover a { position: relative; z-index: 100px; color: grey; border-right: 1px solid grey;  border-top: 3px solid #00A6FC; border-bottom: none; margin-left: 20px; }
+	.nav-bar li a { width: 100px; position: relative; padding: 20px 3px 10px 10px; display: block; text-decoration: none; margin-left: 20px; font-weight: bold; } 
+	.nav-bar li a:after { content: ""; width: 0; height: 0; border-left: 4px solid transparent;border-right: 4px solid transparent; border-top: 4px solid grey;  display: block; position: absolute; right: 17px; bottom: 17px; }
+	
+	 .nav-bar li:hover .reveal-this { position: relative; }
+	
+	.flyout { margin-top: -1px; margin-left: 20px; margin-right: -1000px; }
+	.flyout-padding { padding: 20px; }
 
+	.flyout.small { width: 79.5%; }
+	.flyout.medium	{ width: 79.5%; }
+	.flyout.large { width: 79.5%; }
+	
+	
+	}
+	
 
 
 /*	--------------------------------------------------
