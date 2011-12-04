@@ -8,12 +8,8 @@
 					<h1><a href="index.php">Foundation Docs</a></h1>
 					<h4 class="subheader">Rapid prototyping and building library from ZURB.</h4>
 				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="two columns">
-				<dl class="nice tabs vertical hide-on-phones">
+			
+				<dl class="nice tabs mobile hide-on-phones">
 					<dd><a href="index.php" class="active">Getting Started</a></dd>
 					<dd><a href="grid.php">Grid</a></dd>
 					<dd><a href="buttons.php">Buttons</a></dd>
@@ -22,11 +18,14 @@
 					<dd><a href="ui.php">UI</a></dd>
 					<dd><a href="orbit.php">Orbit</a></dd>
 					<dd><a href="reveal.php">Reveal</a></dd>
-					<dd><a href="gems.php">Gems</a></dd>
+					<dd><a href="rails.php">Rails</a></dd>
 					<dd><a href="qa.php">QA</a></dd>
 				</dl>
 			</div>
-			<div class="six columns">
+		</div>
+		
+		<div class="row">
+			<div class="eight columns">
 				<h3>Welcome to Foundation!</h3>
 				<h4 class="subheader">Welcome to the Foundation documentation. Here you can learn what Foundation includes, as well as how to use it on mobile and on the desktop Web.</h4>
 				
@@ -50,28 +49,6 @@
 						</ul>
 					</div>
 				</div>
-				
-				<hr />
-				
-				<h4>Changelog</h4>
-				<h5>2.1.1</h5>
-				<p>Fixed an issue with buttons modifying their bottom margin on hover, as well as fixing bugs with rows inside a Reveal modal and changing the desktop visibility for objects with a declared display property.</p>
-				
-				<h5>2.1</h5>
-				<p>Added in a four-column mobile grid which can be optionally attached to existing grid elements. Retooled the documentation site for better scalability and added in a vertical tabs element. Also included documentation for the new SaSS gem.</p>
-				
-				<h5>2.0.3</h5>
-				<p>Major fixes for Orbit in responsive layouts, various other grid and common element bug fixes.</p>
-				
-				<h5>2.0.2</h5>
-				<p>Changed the download pack to combine CSS and JS into single files for fewer requests on mobile. Split out typography and the Grid into separate files on Github for easier hacking.</p>
-				
-				<h5>2.0.1</h5>
-				<p>Removed PHP from the base download requirements, numerous bugfixes.</p>
-				
-				<h5>2.0.0</h5>
-				<p>Initial public release.</p>
-				
 				
 				<hr />
 				

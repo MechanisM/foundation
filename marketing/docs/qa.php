@@ -12,12 +12,8 @@
 					<h1><a href="index.php">Foundation Docs</a></h1>
 					<h4 class="subheader">Rapid prototyping and building library from ZURB.</h4>
 				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="two columns">
-				<dl class="nice tabs vertical hide-on-phones">
+			
+				<dl class="nice tabs mobile hide-on-phones">
 					<dd><a href="index.php">Getting Started</a></dd>
 					<dd><a href="grid.php">Grid</a></dd>
 					<dd><a href="buttons.php">Buttons</a></dd>
@@ -26,11 +22,14 @@
 					<dd><a href="ui.php">UI</a></dd>
 					<dd><a href="orbit.php">Orbit</a></dd>
 					<dd><a href="reveal.php">Reveal</a></dd>
-					<dd><a href="gems.php">Gems</a></dd>
+					<dd><a href="rails.php">Rails</a></dd>
 					<dd><a href="qa.php" class="active">QA</a></dd>
 				</dl>
 			</div>
-			<div class="six columns">
+		</div>
+		
+		<div class="row">
+			<div class="eight columns">
 				<h3>QA</h3>
 				<h4 class="subheader">Foundation's no use to you or anyone else if it doesn't work. On this page you can see the current state of browser support, as well as known issues, for Foundation. Found a bug? <a href="mailto:foundation@zurb.com">Let us know &rarr;</a></h4>
 				<hr />
@@ -44,13 +43,13 @@
 						<th style="width: 25%;">JS</th>
 					</thead>
 					<tr>
-						<td><strong>Chrome (Edge)</strong></td>
+						<td><strong>Chrome 14</strong></td>
 						<td><img src="../images/check.png" /></td>
 						<td><img src="../images/check.png" /></td>
 						<td><img src="../images/check.png" /></td>
 					</tr>
 					<tr>
-						<td><strong>Firefox (Edge)</strong></td>
+						<td><strong>Firefox 6</strong></td>
 						<td><img src="../images/check.png" /></td>
 						<td><img src="../images/check.png" /></td>
 						<td><img src="../images/check.png" /></td>
@@ -62,7 +61,7 @@
 						<td><img src="../images/check.png" /></td>
 					</tr>
 					<tr>
-						<td><strong>Safari (Edge)</strong></td>
+						<td><strong>Safari 5</strong></td>
 						<td><img src="../images/check.png" /></td>
 						<td><img src="../images/check.png" /></td>
 						<td><img src="../images/check.png" /></td>
@@ -103,7 +102,7 @@
 						<th style="width: 25%;">JS</th>
 					</thead>
 					<tr>
-						<td><strong>Mobile Webkit (iOS 5)</strong></td>
+						<td><strong>Mobile Webkit (iOS 4)</strong></td>
 						<td><img src="../images/check.png" /></td>
 						<td><img src="../images/check.png" /></td>
 						<td><img src="../images/check.png" /></td>
@@ -134,12 +133,11 @@
 					<li>Reveal uses RGBa colors, which IE7 does not support. You can manually exchange RGBa for PNGs to provide IE7 support in Reveal</li>
 				</ol>
 				
-
 				<hr />
 				
 				<h4>Known Issues</h4>
 				<ul class="disc">
-					<li><em>There are currently no major known issues. Visit the <a href="https://github.com/zurb/foundation/issues?sort=created&direction=desc&state=open">Github Issues page</a> for individual reports on smaller bugs.</em></li>
+					<li><strong>Media Query:</strong> Currently the Motorola Xoom tablet will be identified as a desktop machine in landscape, and a tablet in portrait mode. Given the disparity in the screen widths at those orientations it actually makes a perverse kind of sense. Can't identify it correctly every time without identifying MacBooks as tablets.</li>
 				</ul>
 				
 				

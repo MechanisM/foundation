@@ -1,9 +1,9 @@
-<? $page_title = "Foundation Case Study" ?>
+<? $page_title = "ZURBsoapbox Case Study" ?>
 <?php include("includes/_header.php"); ?>
   
   <!-- Grid BG -->
-  <div id="gridBgShort" class="container hide-on-phones">
-    <div class="white-fade"></div>
+  <div id="gridBgShort" class="container">
+    <div class="white-fade hide-on-phones"></div>
     <div class="row">
       <div class="one columns"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div>
     </div>
@@ -13,13 +13,13 @@
 	<div id="insideContainer" class="container">
 	  <div class="row hide-on-phones">
 	    <a href="index.php" class="back two columns hide-on-phones">&larr; Home</a>
+	    <!-- / Nav -->
 	  </div>
 	  
 	  <div class="row">
 	    <div class="twelve columns">
 	    	<nav class="on-page hide-on-phones">
 	    		<ul>
-	    			<li><a href="case-swizzle.php">Swizzle</a></li>
 	    			<li><a href="case-soapbox.php">ZURBsoapbox</a></li>
 	    			<li class="current"><a href="case-foundation.php">Foundation</a></li>
 	    			<li><a href="case-reel.php">Reel</a></li>

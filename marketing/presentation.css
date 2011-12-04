@@ -250,15 +250,10 @@ header img {
  
   #mainDownload { position: relative; }
   #mainDownload img { position: absolute; right: -84px; top: -26px; margin: 0; padding: 0; }
-  #mainDownload:hover, #mainDownload:focus { overflow: visible; }
 
 /* Update Bar */
 #updates {
-  margin-bottom: 60px;
-  border-bottom: solid 1px #e0e0e0;
-  border-top: solid 1px #e0e0e0;
-  border-right: solid 1px #e0e0e0;
-  background: #fff; }
+  margin-bottom: 60px; }
 #updates div.two.columns {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b7b7b7), color-stop(100%, #a6a6a6));
   background-image: -moz-linear-gradient(top, #b7b7b7, #a6a6a6);
@@ -288,8 +283,8 @@ header img {
   padding: 3px 20px 4px; }
 #updates article {
   background: white;
-  border-top: none;
-  border-bottom: none;
+  border-top: solid 1px #e0e0e0;
+  border-bottom: solid 1px #e0e0e0;
   margin-left: 0;
   padding: 12px 17px 11px 2%; }
 #updates article dl {
@@ -311,9 +306,8 @@ header img {
   background: white;
   margin-left: 0;
   padding: 12px 17px 13px 2%;
-  border: solid 0px #e0e0e0;
-  border-width: 0px 0px 0px 1px;
-  width: 219px; }
+  border: solid 1px #e0e0e0;
+  width: 210px; }
 #updates aside > a {
   background: url('images/icon-docs.png?1309564181') 0 4px no-repeat;
   padding-left: 26px;
@@ -463,17 +457,12 @@ footer.row a:hover {
     padding-right: 20px; }
 
   #updates {
-    margin-left: 1%; background: none;
-    border-bottom: none;
-    border-right: none;
-    border-top: none; }
+    margin-left: 1%; }
   #updates div.two.columns {
     width: 14%; }
   #updates article {
     width: 76%;
-    border-right: solid 1px #e0e0e0;
-    border-bottom: solid 1px #e0e0e0;
-    border-top: solid 1px #e0e0e0; }
+    border-right: solid 1px #e0e0e0; }
   #updates aside {
     background: none;
     border: none;
@@ -546,16 +535,14 @@ footer.row a:hover {
 }
 @media only screen and (max-width: 767px) {
   #zurBar {
-    padding-left: 20px;
-    padding-right: 20px; }
+    padding-left: 0;
+    padding-right: 0; }
   #zurBar h1 {
     float: left; }
   #gridBg {
     display: none;
   }
-	
-  #insideContainer { top: 20px; }
-  
+
   header {
     margin-top: 40px; }
   header img {
@@ -591,8 +578,7 @@ footer.row a:hover {
 
   #logos {
     text-align: center;
-    margin-bottom: 0;
-    border-bottom: none; }
+    margin-bottom: 0; }
   #logos h4 {
     font-size: 20px;
     font-size: 2rem; }
@@ -605,22 +591,19 @@ footer.row a:hover {
     height: 200px; }
 
   footer.row {
-    margin-top: 0;
-    border-top: none; }
+    margin-top: 0; }
 
   div.slider-nav span.left {
     left: 94% !important; }
 
   /* Swipey, swipey $3.50 */
-  
   #swipeArea {
     background: #f0f0f0;
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3) inset, 0 0 10px rgba(0, 0, 0, 0.27) inset;
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3) inset, 0 0 10px rgba(0, 0, 0, 0.27) inset;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3) inset, 0 0 10px rgba(0, 0, 0, 0.27) inset;
     margin-bottom: 0;
-    padding-top: 16px; padding-left: 20px; padding-right: 20px;
-    margin-left: -20px; margin-right: -20px;
+    padding-top: 16px;
     overflow: hidden; }
   #swipeArea h5 {
     margin-bottom: 12px;

@@ -8,7 +8,7 @@
       offset = $('#swipeMeParent').width()+40;
     
    // Move everything but the first child li of #swipeMeParent
-    if (currentSlide < 3) {
+    if (currentSlide < 2) {
       $('#swipeMeParent').children('li:not(:first-child)').css({
         left: offset
       });
@@ -53,7 +53,7 @@
 				    	});
 
 				      // Cycle Logic
-				      if (currentSlide == 4) {
+				      if (currentSlide == 3) {
 				        var incrementMe = 1;
 				      } else {
 				        var incrementMe = currentSlide + 1;
@@ -75,7 +75,7 @@
 				      }, 300);
 
 				      // Looping on Last Case Study  
-				      if (currentSlide == 4) {       
+				      if (currentSlide == 3) {       
 				        currentSlide = 1;            
 				      } else {                       
 				        currentSlide++;              
@@ -88,7 +88,7 @@
 
 				      // Cycle Logic
 				      if (currentSlide == 1) {
-				        var incrementMe = 4;
+				        var incrementMe = 3;
 				      } else {
 				        var incrementMe = currentSlide - 1;
 				      }
@@ -110,7 +110,7 @@
 
 				      // Looping on Last Case Study  
 				      if (currentSlide == 1) {       
-				        currentSlide = 4;            
+				        currentSlide = 3;            
 				      } else {                       
 				        currentSlide--;              
 				      }

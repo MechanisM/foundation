@@ -8,12 +8,8 @@
 					<h1><a href="index.php">Foundation Docs</a></h1>
 					<h4 class="subheader">Rapid prototyping and building library from ZURB.</h4>
 				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="two columns">
-				<dl class="nice tabs vertical hide-on-phones">
+			
+				<dl class="nice tabs mobile hide-on-phones">
 					<dd><a href="index.php">Getting Started</a></dd>
 					<dd><a href="grid.php">Grid</a></dd>
 					<dd><a href="buttons.php">Buttons</a></dd>
@@ -22,11 +18,14 @@
 					<dd><a href="ui.php">UI</a></dd>
 					<dd><a href="orbit.php">Orbit</a></dd>
 					<dd><a href="reveal.php" class="active">Reveal</a></dd>
-					<dd><a href="gems.php">Gems</a></dd>
+					<dd><a href="rails.php">Rails</a></dd>
 					<dd><a href="qa.php">QA</a></dd>
 				</dl>
 			</div>
-			<div class="six columns">
+		</div>
+		
+		<div class="row">
+			<div class="eight columns">
 				<h3>Reveal</h3>
 				<h4 class="subheader">Reveal is our new modal plugin. We kept it light-weight, simple, and totally flexible (there's a 'your mom' joke in there somewhere). Go ahead, <a href="" data-reveal-id="testModal">see what a default Reveal modal looks like.</a></h4>
 				<hr />
