@@ -12,7 +12,7 @@
 :: Pagination
 :: Lists
 :: Panels
-:: Navigation Bar Drop Down
+:: Nav
 :: Microformats
 */
 
@@ -186,31 +186,22 @@
 	}
 
 /*	--------------------------------------------------
-   	Navigation Bar Dropdown
+   	Nav Bar with Dropdowns
 	-------------------------------------------------- */
 	
-	ul.nav-bar { height: 58px; background: gray; margin-top: 20px; border: 1px solid rgba(0, 0, 0, 0.1); }	
-	.nav-bar ul li { float:left; display:block; position:relative; padding: 10px 4px 0px 10px; border:none; }
-	.nav-bar ul li a { position: relative; font-size: 14px; padding: 10px 20px 10px 10px; display: block; text-decoration: none; color: white; margin-left: 20px; font-weight: bold; } 
-	.nav-bar ul li a:after { content: ""; width: 0; height: 0; border-left: 4px solid transparent;border-right: 4px solid transparent; border-top: 4px solid white;  display: block; position: absolute; right: 6px; bottom: 16px; }
-	.nav-bar ul li:hover a { color: grey; background: #EEE; -moz-border-radius: 3px 3px 0px 0px; -webkit-border-radius: 3px 3px 0px 0px; border-radius: 3px 3px 0px 0px; z-index: 2; }
-	.nav-bar ul li ul { display: none; }
-	.nav-bar ul li:hover ul { display: block; position: absolute; color: gray; }
-	.nav-bar ul li:hover ul li a { display: block; background: #eee;  }
+	.nav-bar { height: 45px; background: #fff; margin-top: 20px; border: 1px solid #ddd; }	
+	.nav-bar li { float: left; display: block; position: relative; padding: 0; margin: 0; border: none; }
+	.nav-bar li a { position: relative; font-size: 14px; padding: 14px 36px 13px 20px; display: block; text-decoration: none; font-size: 15px; font-size: 1.5rem; border-right: 1px solid #ddd; } 
+	.nav-bar li a:after { content: ""; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 4px solid #2a85e8;  display: block; position: absolute; right: 18px; bottom: 20px; }
+	.nav-bar li:hover a { color: #141414; z-index: 2; }
+	.nav-bar li:hover a:after { border-top-color: #141414; }
 
-	.flyout { background: #EEE; margin: -9px 0px 0px -10px; padding: 27px 20px 20px 20px; -moz-border-radius: 0px 3px 3px 3px; -webkit-border-radius: 0px 3px 3px 3px; border-radius: 0px 3px 3px 3px; -moz-box-shadow: 0 5px 5px rgba(0,0,0,.1); -webkit-box-shadow: 0 5px 5px rgba(0,0,0,.1); box-shadow: 0 5px 5px rgba(0,0,0,.1);}
-	.flyout.one { width: 200px; }
-	.flyout.two	{ width: 400px; }
-	.flyout.three { width: 600px; }
-
-@media only screen and (max-width: 767px) {
-	.nav-bar { height: auto; }
-	.nav-bar ul li { float: none; display: block; padding: 0px 0px 0px 0px; margin: -1px -1px -1px -21px; }
-	.nav-bar ul li a:after { content: ""; width: 0; height: 0; border-left: 4px solid transparent;border-right: 4px solid transparent; border-top: 4px solid white;  display: block; float: right; position: absolute; right: 6px; bottom: 16px; }
-	.nav-bar ul li:hover a { color: grey; background: #EEE; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; border-radius: 0px 0px 0px }
-	.nav-bar ul li a { width: 100px; position: relative; font-size: 14px; padding: 10px 20px 10px 10px; display: block; text-decoration: none; color: white; margin-left: 20px; font-weight: bold; } 
-	.nav-bar ul li:hover ul { position: relative; }
-}
+	.flyout { background: #fff; margin: 0; padding: 20px; border: 1px solid #ddd; position: absolute; top: 45px; left: -1px; width: 400px; }
+	.flyout.small { width: 200px; }
+	.flyout.large { width: 600px; }
+	.flyout p:last-child { margin-bottom: 0; }
+	.nav-bar li .flyout { display: none; }
+	.nav-bar li:hover .flyout { display: block; }
 
 
 

@@ -125,6 +125,59 @@
 				
 				<hr />
 				
+				<h4>Nav Bar</h4>
+				<p>Description</p>
+				
+				<ul class="nav-bar">
+    				<li><a href="#">Nav Item 1</a>
+						<div class="flyout small">
+							<h5>Small Example (200px)</h5>
+							<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. </p>
+						</div>
+    				</li>
+    				<li><a href="#">Nav Item 2</a>
+    					<div class="flyout">
+                        	<div class="row">
+                         		<div class="twelve columns">
+                         			<h5>Medium Example (400px)</h5>
+                     				<div class="row">
+                   				  		<div class="six columns">
+                   				  			<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+                     					</div>
+                     					<div class="six columns">
+                     						<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+                     					</div>
+                     				</div>
+                  				</div>
+                  			</div>
+                  		</div>
+    				</li>
+    				<li><a href="#">Nav Item 3</a>
+    					<div class="flyout large">
+                        	<div class="row">
+                        		<div class="twelve columns">
+                        			<h5>Large Example (600px)</h5>
+                    				<div class="row">
+                           				<div class="four columns">
+                            				<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+                            				<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+                            			</div>
+                            			<div class="four columns">
+											<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+											<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+										</div>
+										<div class="four columns">
+											<img src="http://placehold.it/200x250"
+          								</div>
+              						</div>
+                  				</div>
+                  			</div>
+                  		</div>
+    				</li>
+      			</ul>
+      			
+      			<hr />
+				
 				<h4>Pagination</h4>
 				<p>Breaking stuff up into pages? Yeah you are. Here's some pagination to get you started.</p>
 				
@@ -186,6 +239,7 @@
 				
 				
 				<hr />
+				
 				
 				<h4>Microformats</h4>
 				<p>Microformats are formats for data objects represented on the page using standard HTML. By applying specific classes to objects parsers like the operator plugin can detect relevant data and display it. This can be especially handy for contact info, events, locations and news articles. We've supplied some base styling for microformats, as well as the relevant markup.</p>
