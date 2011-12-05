@@ -196,7 +196,7 @@
 	.nav-bar li:hover a { color: #141414; z-index: 2; }
 	.nav-bar li:hover a:after { border-top-color: #141414; }
 
-	.flyout { background: #fff; margin: 0; padding: 20px; border: 1px solid #ddd; position: absolute; top: 45px; left: -1px; width: 400px; }
+	.flyout { background: #fff; margin: 0; padding: 20px; border: 1px solid #ddd; position: absolute; top: 45px; left: -1px; width: 400px; z-index: 10; }
 	.flyout.small { width: 200px; }
 	.flyout.large { width: 600px; }
 	.flyout p:last-child { margin-bottom: 0; }

@@ -8,7 +8,7 @@
       offset = $('#swipeMeParent').width()+40;
     
    // Move everything but the first child li of #swipeMeParent
-    if (currentSlide < 2) {
+    if (currentSlide < 3) {
       $('#swipeMeParent').children('li:not(:first-child)').css({
         left: offset
       });
@@ -20,7 +20,7 @@
     // Detect Resize for offset animation
     $(window).resize(function(e) {
       offset = $('#swipeMeParent').width()+40;
-      $('#swipeme1, #swipeme2, #swipeme3').css({
+      $('#swipeme1, #swipeme2, #swipeme3, #swipeme4').css({
         left: offset
       });
       $('#swipeme' + currentSlide).css({

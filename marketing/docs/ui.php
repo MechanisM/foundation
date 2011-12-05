@@ -126,55 +126,57 @@
 				<hr />
 				
 				<h4>Nav Bar</h4>
-				<p>Description</p>
+				<p>If you need a more traditional nav bar with dropdowns, you can use this sucka. The dropdowns are optional - omitting the flyout element means it will act as a standard link. The flyouts can hold arbitrary content, including grid objects, and have three sizes (.small, standard, and .large).</p>
 				
 				<ul class="nav-bar">
-    				<li><a href="#">Nav Item 1</a>
+					<li><a href="#">Nav Item 1</a>
 						<div class="flyout small">
 							<h5>Small Example (200px)</h5>
 							<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. </p>
 						</div>
-    				</li>
-    				<li><a href="#">Nav Item 2</a>
-    					<div class="flyout">
-                        	<div class="row">
-                         		<div class="twelve columns">
-                         			<h5>Medium Example (400px)</h5>
-                     				<div class="row">
-                   				  		<div class="six columns">
-                   				  			<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-                     					</div>
-                     					<div class="six columns">
-                     						<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-                     					</div>
-                     				</div>
-                  				</div>
-                  			</div>
-                  		</div>
-    				</li>
-    				<li><a href="#">Nav Item 3</a>
-    					<div class="flyout large">
-                        	<div class="row">
-                        		<div class="twelve columns">
-                        			<h5>Large Example (600px)</h5>
-                    				<div class="row">
-                           				<div class="four columns">
-                            				<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-                            				<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-                            			</div>
-                            			<div class="four columns">
+					</li>
+					<li><a href="#">Nav Item 2</a>
+						<div class="flyout">
+				        	<div class="row">
+				         		<div class="twelve columns">
+				         			<h5>Medium Example (400px)</h5>
+				     				<div class="row">
+				   				  		<div class="six columns">
+				   				  			<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+				     					</div>
+				     					<div class="six columns">
+				     						<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+				     					</div>
+				     				</div>
+				  				</div>
+				  			</div>
+				  		</div>
+					</li>
+					<li><a href="#">Nav Item 3</a>
+						<div class="flyout large">
+				        	<div class="row">
+				        		<div class="twelve columns">
+				        			<h5>Large Example (600px)</h5>
+				    				<div class="row">
+				           				<div class="four columns">
+				            				<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+				            				<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+				            			</div>
+				            			<div class="four columns">
 											<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
 											<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
 										</div>
 										<div class="four columns">
 											<img src="http://placehold.it/200x250"
-          								</div>
-              						</div>
-                  				</div>
-                  			</div>
-                  		</div>
-    				</li>
-      			</ul>
+											</div>
+										</div>
+				  				</div>
+				  			</div>
+				  		</div>
+					</li>
+				</ul>
+      			
+      			<script type="text/javascript" src="http://snipt.net/embed/7dd4b241f040a3437468b7e7176429a6"></script>
       			
       			<hr />
 				
